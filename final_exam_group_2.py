@@ -51,7 +51,7 @@ import pandas as pd
 #import matplotlib.pyplot as plt
 # %matplotlib inline
 
-import cv2
+
 import glob # to find files recursively
 
 import keras
