@@ -11,7 +11,7 @@ Original file is located at
 
 
 
-import os
+#import os
 
 path = '../input/grocery/GroceryStoreDataset-master/dataset/train/'
 
@@ -45,19 +45,19 @@ print(folder_list)
 print(len(folder_list))
 
 # Commented out IPython magic to ensure Python compatibility.
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 
 #import matplotlib.pyplot as plt
 # %matplotlib inline
 
+#import cv2
+#import glob # to find files recursively
 
-import glob # to find files recursively
+#import keras
+#import tensorflow as tf
 
-import keras
-import tensorflow as tf
-
-from tensorflow.keras.preprocessing import image_dataset_from_directory
+#from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
     rescale = 1./255., # Rescaling
@@ -69,7 +69,7 @@ train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
     horizontal_flip = True
 )
 
-train_path = '/content/drive/MyDrive/CPE 019 Final Exam/ItemPurchase/GroceryStoreDataset-master/dataset/train'
+#train_path = '/content/drive/MyDrive/CPE 019 Final Exam/ItemPurchase/GroceryStoreDataset-master/dataset/train'
 image_size = (224, 224)
 batch_size = 32
 
