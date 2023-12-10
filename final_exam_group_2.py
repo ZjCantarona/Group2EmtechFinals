@@ -21,8 +21,8 @@ file_list = []
 #     print('Root : ', root)
 #     print('Dirs : ', dirs)
 #     print('Files : ', files)
-    for file in files:
-        file_list.append(os.path.join(root, file))
+#    for file in files:
+#        file_list.append(os.path.join(root, file))
 
 
 # print(file_list)
