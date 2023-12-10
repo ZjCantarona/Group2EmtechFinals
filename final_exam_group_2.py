@@ -38,7 +38,7 @@ folder_list = []
 #     print('Files : ', files)
 
 #    if len(dirs) > 0:
-        folder_list.append(dirs)
+#        folder_list.append(dirs)
 
 
 print(folder_list)
