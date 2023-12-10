@@ -59,7 +59,7 @@ print(len(folder_list))
 
 #from tensorflow.keras.preprocessing import image_dataset_from_directory
 
-train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
+#train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
     rescale = 1./255., # Rescaling
     rotation_range = 40, # for augmentation
     width_shift_range = 0.2,
