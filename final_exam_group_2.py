@@ -32,7 +32,7 @@ path = '/content/drive/MyDrive/CPE 019 Final Exam/ItemPurchase/GroceryStoreDatas
 
 folder_list = []
 
-for root, dirs, files in os.walk(path):
+#for root, dirs, files in os.walk(path):
 #     print('Root : ', root)
 #     print('Dirs : ', dirs)
 #     print('Files : ', files)
